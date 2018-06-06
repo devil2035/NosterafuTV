@@ -1,0 +1,13 @@
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\bin\Debug\nosteraFan.exe.config
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\bin\Debug\nosteraFan.exe
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\bin\Debug\nosteraFan.pdb
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.csprojAssemblyReference.cache
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.Properties.Resources.resources
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.csproj.GenerateResource.cache
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.csproj.CoreCompileInputs.cache
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.exe
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.pdb
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.Form_main.resources
+C:\Users\Clemens\source\repos\nosteraFan\nosteraFan\obj\Debug\nosteraFan.csproj.CopyComplete
