@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.IO.Compression;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -67,6 +69,9 @@ namespace nosteraFan
         public Form_main()
         {
             InitializeComponent();
+
+            //raising connection limit from default (2) to 3
+            ServicePointManager.DefaultConnectionLimit = 3;
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -214,7 +219,13 @@ namespace nosteraFan
                 {
                     webClient.Proxy = null;
                     webClient.Encoding = Encoding.UTF8;
-                    r = webClient.DownloadString(url);
+
+                    webClient.Headers[HttpRequestHeader.AcceptEncoding] = "gzip";
+                    Stream stream = webClient.OpenRead(url);
+                    GZipStream gzipStream = new GZipStream(stream, CompressionMode.Decompress);
+                    StreamReader reader = new StreamReader(gzipStream);
+
+                    r = reader.ReadToEnd();
 
                     //====================Progress Bar not working yet==============
                     webClient.DownloadProgressChanged += (s, e) =>
